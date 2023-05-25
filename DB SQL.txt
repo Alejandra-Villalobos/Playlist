@@ -1,0 +1,60 @@
+-- public."User" definition
+
+-- Drop table
+
+-- DROP TABLE public."User";
+
+CREATE TABLE public."User" (
+	code uuid NOT NULL DEFAULT gen_random_uuid(),
+	username varchar NOT NULL,
+	email varchar NOT NULL,
+	"password" varchar NOT NULL,
+	CONSTRAINT user_pk PRIMARY KEY (code)
+);
+
+
+-- public.song definition
+
+-- Drop table
+
+-- DROP TABLE public.song;
+
+CREATE TABLE public.song (
+	code uuid NOT NULL DEFAULT gen_random_uuid(),
+	title varchar NOT NULL,
+	duration int4 NOT NULL,
+	CONSTRAINT song_pk PRIMARY KEY (code)
+);
+
+
+-- public.playlist definition
+
+-- Drop table
+
+-- DROP TABLE public.playlist;
+
+CREATE TABLE public.playlist (
+	code uuid NOT NULL DEFAULT gen_random_uuid(),
+	title varchar NOT NULL,
+	description varchar NOT NULL,
+	user_code uuid NULL,
+	CONSTRAINT playlist_pk PRIMARY KEY (code),
+	CONSTRAINT playlist_fk FOREIGN KEY (user_code) REFERENCES public."User"(code)
+);
+
+
+-- public.songxplaylist definition
+
+-- Drop table
+
+-- DROP TABLE public.songxplaylist;
+
+CREATE TABLE public.songxplaylist (
+	code uuid NOT NULL DEFAULT gen_random_uuid(),
+	song_code uuid NULL,
+	playlist_code uuid NULL,
+	date_added timestamp NOT NULL,
+	CONSTRAINT songxplaylist_pk PRIMARY KEY (code),
+	CONSTRAINT songxplaylist_fk FOREIGN KEY (song_code) REFERENCES public.song(code),
+	CONSTRAINT songxplaylist_fk_1 FOREIGN KEY (playlist_code) REFERENCES public.playlist(code)
+);
