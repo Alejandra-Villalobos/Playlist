@@ -26,7 +26,6 @@ public class SongServiceImp implements SongService {
 					info.getDuration()
 				);
 		songRepository.save(song);
-		
 	}
 
 	@Override
@@ -38,8 +37,16 @@ public class SongServiceImp implements SongService {
 
 	@Override
 	@Transactional(rollbackOn = Exception.class)
-	public void update(SaveSongDTO song) throws Exception {
-		// TODO Auto-generated method stub
+	public void update(String title, SaveSongDTO info) throws Exception {
+		songRepository.findOneByTitle(title);
+		songRepository.deleteByTitle(title);
+		
+		Song song = new Song(
+				info.getTitle(),
+				info.getDuration()
+			);
+		
+		songRepository.save(song);
 		
 	}
 

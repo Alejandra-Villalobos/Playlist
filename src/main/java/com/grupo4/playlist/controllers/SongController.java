@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -52,8 +54,32 @@ public class SongController {
 		return new ResponseEntity<>(song, HttpStatus.OK);
 	}
 	
+	@PutMapping("/{title}")
+	public ResponseEntity<?> update(@PathVariable(name = "title") String title, @RequestBody @Valid
+			SaveSongDTO info, BindingResult validations) {
+		if(songService.findOneByTitle(title) == null){
+			return new ResponseEntity<>(
+					new MessageDTO("Song not found"), HttpStatus.NOT_FOUND);
+		}
+		else if(validations.hasErrors()) {
+			return new ResponseEntity<>(
+					errorHandler.mapErrors(validations.getFieldErrors()), 
+					HttpStatus.BAD_REQUEST);
+		}
+		try {
+			songService.update(title, info);
+			return new ResponseEntity<>(
+					new MessageDTO("Song updated"), HttpStatus.CREATED);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return new ResponseEntity<>(
+					new MessageDTO("Internal Server Error"), HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+		
+	}
+	
 	@PostMapping("/")
-	public ResponseEntity<?> save(@ModelAttribute @Valid SaveSongDTO info, BindingResult validations){
+	public ResponseEntity<?> save(@RequestBody @Valid SaveSongDTO info, BindingResult validations){
 		if(validations.hasErrors()) {
 			return new ResponseEntity<>(
 					errorHandler.mapErrors(validations.getFieldErrors()), 
@@ -73,6 +99,10 @@ public class SongController {
 	
 	@DeleteMapping("/{title}")
 	public ResponseEntity<?> deleteByTitle(@PathVariable(name = "title") String title){
+		if(songService.findOneByTitle(title) == null){
+			return new ResponseEntity<>(
+					new MessageDTO("Song not found"), HttpStatus.NOT_FOUND);
+		}
 		try {
 			songService.deleteByTitle(title);
 			return new ResponseEntity<>(
