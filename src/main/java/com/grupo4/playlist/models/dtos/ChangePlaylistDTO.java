@@ -1,13 +1,12 @@
 package com.grupo4.playlist.models.dtos;
 
-
-import java.util.UUID;
-
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Data;
 
 @Data
-public class SavePlaylistDTO {
+public class ChangePlaylistDTO {
+	@NotEmpty(message = "Old title can't be empty")
+	private String Oldtitle;
 	
 	@NotEmpty(message = "Title can't be empty")
 	private String title;
@@ -17,4 +16,5 @@ public class SavePlaylistDTO {
 	
 	@NotEmpty(message = "User can't be empty")
 	private String user;
+
 }

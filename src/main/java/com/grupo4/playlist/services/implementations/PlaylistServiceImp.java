@@ -1,10 +1,12 @@
 package com.grupo4.playlist.services.implementations;
 
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.grupo4.playlist.models.dtos.ChangePlaylistDTO;
 import com.grupo4.playlist.models.dtos.SavePlaylistDTO;
 import com.grupo4.playlist.models.entities.Playlist;
 import com.grupo4.playlist.models.entities.User;
@@ -36,27 +38,20 @@ public class PlaylistServiceImp implements PlaylistService {
 		playlistRepository.deleteByTitle(title);
 		
 	}
-
-	/*@Override
-	@Transactional(rollbackOn = Exception.class)
-	public void deleteByTitleAndUser(String title, String user) throws Exception {
-		playlistRepository.deleteByTitleAndUser(title, user);
-		
-	}
-
+	
 	@Override
 	@Transactional(rollbackOn = Exception.class)
-	public void updateByTitleAndUser(String title, User user, SavePlaylistDTO info) throws Exception {
-		playlistRepository.findOneByTitle(title);
-		playlistRepository.deleteByTitle(title);
+	public void updateByTitleAndUser(User user, ChangePlaylistDTO info) throws Exception {
+		playlistRepository.findOneByTitle(info.getOldtitle());
+		playlistRepository.deleteByTitle(info.getOldtitle());
 		Playlist playlist = new Playlist(
 				info.getTitle(),
 				info.getDescription(),
 				user
 			);
 		playlistRepository.save(playlist);
-		
-	}*/
+
+	}
 
 	@Override
 	public List<Playlist> findAll() {
@@ -70,10 +65,10 @@ public class PlaylistServiceImp implements PlaylistService {
 		return playlist;
 	}
 
-	/*@Override
-	public Playlist findOneByTitleAndUser(String title, String user) {
-		Playlist playlist = playlistRepository.findOneByTitleAndUser(title, user);
-		return playlist;
-	}*/
+	@Override
+	public void delete(Playlist playlist) {
+		playlistRepository.delete(playlist);
+		
+	}
 
 }
