@@ -129,9 +129,16 @@ public class UserController {
 			);
 	}
 	
-	@GetMapping("/get/{username}")
+	@GetMapping("/{username}")
 	public ResponseEntity<?> findOneByUsername(@PathVariable(name = "username") String username){
 		User user = userService.findOneByUsername(username);
+		if(user == null) {
+			return new ResponseEntity<>(
+					new MessageDTO("user not found"),
+					HttpStatus.NOT_FOUND
+				);
+
+		}
 		return new ResponseEntity<>(
 				user,
 				HttpStatus.OK

@@ -1,0 +1,286 @@
+
+    select * from public.playlist
+     select * from public.song
+    select * from public.users
+    insert into playlist (title, description, user_code)
+    	values ('Prueba', 'Playlist de prueba xd', 'c780befa-addf-43a3-b683-e6f130c697cc')
+    insert into public.user (username, email, password)
+    	values ('Prueba user', 'prueba@prueba.com', '12345')
+    	
+   -- public."User" definition
+
+-- Drop table
+
+-- DROP TABLE public."users" CASCADE;
+-- DROP TABLE public."song" CASCADE;
+-- DROP TABLE public."playlist" CASCADE;
+-- DROP TABLE public."songxplaylist" CASCADE;
+-
+
+CREATE TABLE public.users (
+    code uuid NOT NULL DEFAULT gen_random_uuid(),
+    username varchar NOT NULL,
+    email varchar NOT NULL,
+    password varchar NOT NULL,
+    CONSTRAINT users_pk PRIMARY KEY (code)
+);
+
+create TABLE public.song (
+    code uuid NOT NULL DEFAULT gen_random_uuid(),
+    title varchar NOT NULL,
+    duration int NOT NULL,
+    CONSTRAINT song_pk PRIMARY KEY (code)
+);
+
+
+CREATE TABLE public.playlist (
+    code uuid NOT NULL DEFAULT gen_random_uuid(),
+    title varchar NOT NULL,
+    description varchar NOT NULL,
+    user_code uuid NULL,
+    CONSTRAINT playlist_pk PRIMARY KEY (code),
+    CONSTRAINT playlist_fk FOREIGN KEY (user_code) REFERENCES public.users (code)
+);
+
+CREATE TABLE public.songxplaylist (
+    code uuid NOT NULL DEFAULT gen_random_uuid(),
+    song_code uuid NULL,
+    playlist_code uuid NULL,
+    date_added timestamp NOT NULL,
+    CONSTRAINT songxplaylist_pk PRIMARY KEY (code),
+    CONSTRAINT songxplaylist_fk_song FOREIGN KEY (song_code) REFERENCES public.song (code),
+    CONSTRAINT songxplaylist_fk_playlist FOREIGN KEY (playlist_code) REFERENCES public.playlist (code)
+);
+
+INSERT INTO public.users  (username, email, password)
+VALUES ('gerardo', 'gerardo@gmail.com', '123456');
+
+INSERT INTO public.playlist  (title, description, user_code)
+VALUES ('prueba', 'playlist prueba', 'ada706e8-f82a-4bb7-8b84-84432fa9e92f');
+
+INSERT into public.song (title, duration)
+values ('Hotel California', '390');
+INSERT into public.song (title, duration)
+values ('Smells Like Teen Spirit', '300');
+INSERT into public.song (title, duration)
+values ('Imagine', '185');
+INSERT into public.song (title, duration)
+values ('Hey Jude', '431');
+INSERT into public.song (title, duration)
+values ('Thriller', '357');
+INSERT into public.song (title, duration)
+values ('Sweet Child o Mine', '355');
+
+INSERT INTO public.song (title, duration) VALUES ('Ella Quiere Beber', 204);
+INSERT INTO public.song (title, duration) VALUES ('Wacha', 180);
+INSERT INTO public.song (title, duration) VALUES ('Picky', 205);
+INSERT INTO public.song (title, duration) VALUES ('Mentirosa', 207);
+INSERT INTO public.song (title, duration) VALUES ('Ella Sabe', 196);
+INSERT INTO public.song (title, duration) VALUES ('Me Enamoré', 211);
+INSERT INTO public.song (title, duration) VALUES ('Me Gusta', 187);
+INSERT INTO public.song (title, duration) VALUES ('Que Pretendes', 200);
+INSERT INTO public.song (title, duration) VALUES ('Pa'' Mi', 187);
+
+INSERT INTO public.song (title, duration) VALUES ('Te Quiero Más', 198);
+INSERT INTO public.song (title, duration) VALUES ('Si Tú Te Vas', 204);
+INSERT INTO public.song (title, duration) VALUES ('Princesa', 220);
+INSERT INTO public.song (title, duration) VALUES ('Consejo de Amor', 219);
+INSERT INTO public.song (title, duration) VALUES ('Ya No Hay Nadie Que Nos Pare', 202);
+INSERT INTO public.song (title, duration) VALUES ('Fresa', 177);
+INSERT INTO public.song (title, duration) VALUES ('Respirar', 206);
+INSERT INTO public.song (title, duration) VALUES ('Ella Dice', 213);
+INSERT INTO public.song (title, duration) VALUES ('Quiero Volver', 197);
+INSERT INTO public.song (title, duration) VALUES ('Por Que Te Vas', 205);
+INSERT INTO public.song (title, duration) VALUES ('Suéltate El Pelo', 191);
+INSERT INTO public.song (title, duration) VALUES ('Te Amo a Ti', 213);
+INSERT INTO public.song (title, duration) VALUES ('Got Me Started', 208);
+INSERT INTO public.song (title, duration) VALUES ('Great Escape', 196);
+INSERT INTO public.song (title, duration) VALUES ('Yo Me Escaparé', 187);
+INSERT INTO public.song (title, duration) VALUES ('Siempre Brillarás', 213);
+INSERT INTO public.song (title, duration) VALUES ('Losing the Love', 219);
+INSERT INTO public.song (title, duration) VALUES ('Born to Shine', 216);
+INSERT INTO public.song (title, duration) VALUES ('All You Gotta Do', 206);
+INSERT INTO public.song (title, duration) VALUES ('Finders Keepers', 219);
+INSERT INTO public.song (title, duration) VALUES ('Light Your Heart', 213);
+INSERT INTO public.song (title, duration) VALUES ('Siempre Juntos', 197);
+INSERT INTO public.song (title, duration) VALUES ('Got Me Started (Remix)', 216);
+INSERT INTO public.song (title, duration) VALUES ('Sad Song', 213);
+INSERT INTO public.song (title, duration) VALUES ('Te Amaré', 205);
+INSERT INTO public.song (title, duration) VALUES ('Till the End', 193);
+INSERT INTO public.song (title, duration) VALUES ('Te Sigo a Ti', 220);
+INSERT INTO public.song (title, duration) VALUES ('Love Is Love', 212);
+INSERT INTO public.song (title, duration) VALUES ('Waves', 194);
+INSERT INTO public.song (title, duration) VALUES ('Diciembre', 216);
+INSERT INTO public.song (title, duration) VALUES ('Una Vez Más', 199);
+INSERT INTO public.song (title, duration) VALUES ('Soy Mi Mejor Momento', 215);
+INSERT INTO public.song (title, duration) VALUES ('Vuelve a Mí', 206);
+INSERT INTO public.song (title, duration) VALUES ('Cristina', 213);
+INSERT INTO public.song (title, duration) VALUES ('Confía en Mí', 205);
+INSERT INTO public.song (title, duration) VALUES ('Violetta y León', 199);
+INSERT INTO public.song (title, duration) VALUES ('Ser Mejor', 203);
+INSERT INTO public.song (title, duration) VALUES ('Ven y Canta', 206);
+INSERT INTO public.song (title, duration) VALUES ('Juntos Somos Más', 194);
+INSERT INTO public.song (title, duration) VALUES ('Euforia', 202);
+INSERT INTO public.song (title, duration) VALUES ('Habla Si Puedes', 210);
+INSERT INTO public.song (title, duration) VALUES ('En Mi Mundo', 191);
+INSERT INTO public.song (title, duration) VALUES ('Libre Soy', 193);
+INSERT INTO public.song (title, duration) VALUES ('Te Creo', 217);
+INSERT INTO public.song (title, duration) VALUES ('Podemos', 207);
+INSERT INTO public.song (title, duration) VALUES ('Hoy Somos Más', 212);
+INSERT INTO public.song (title, duration) VALUES ('Nuestro Camino', 207);
+INSERT INTO public.song (title, duration) VALUES ('Luz, Cámara, Acción', 219);
+INSERT INTO public.song (title, duration) VALUES ('Junto a Ti', 201);
+INSERT INTO public.song (title, duration) VALUES ('In My Own World', 189);
+INSERT INTO public.song (title, duration) VALUES ('Entre Tu y Yo', 202);
+INSERT INTO public.song (title, duration) VALUES ('Cuando Me Voy', 215);
+INSERT INTO public.song (title, duration) VALUES ('Ven Con Nosotros', 209);
+INSERT INTO public.song (title, duration) VALUES ('Si Es Por Amor', 214);
+INSERT INTO public.song (title, duration) VALUES ('Voy Por Ti', 203);
+INSERT INTO public.song (title, duration) VALUES ('Aprendí a Decir Adiós', 197);
+INSERT INTO public.song (title, duration) VALUES ('Lo Que Tu Alma Escribe', 209);
+INSERT INTO public.song (title, duration) VALUES ('Ser Mejor (Versión en Inglés)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Juntos Somos Más (Versión en Inglés)', 194);
+INSERT INTO public.song (title, duration) VALUES ('Underneath It All', 200);
+INSERT INTO public.song (title, duration) VALUES ('This Is My Paradise', 202);
+INSERT INTO public.song (title, duration) VALUES ('Tienes Todo', 217);
+INSERT INTO public.song (title, duration) VALUES ('Algo Suena en Mi', 192);
+INSERT INTO public.song (title, duration) VALUES ('A Rodar Mi Vida', 200);
+INSERT INTO public.song (title, duration) VALUES ('Mírame a Mí', 191);
+INSERT INTO public.song (title, duration) VALUES ('Cuando Tú No Estás', 202);
+INSERT INTO public.song (title, duration) VALUES ('Siento', 209);
+INSERT INTO public.song (title, duration) VALUES ('Todavía Hay Más', 194);
+INSERT INTO public.song (title, duration) VALUES ('Supercreativa', 195);
+INSERT INTO public.song (title, duration) VALUES ('Voy Por Ti (Versión en Inglés)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Habla Si Puedes (Versión en Inglés)', 210);
+INSERT INTO public.song (title, duration) VALUES ('Ricomincio Da Qui', 218);
+INSERT INTO public.song (title, duration) VALUES ('Si Es Por Amor (Versión en Inglés)', 214);
+INSERT INTO public.song (title, duration) VALUES ('Great Escape (Versión en Español)', 196);
+INSERT INTO public.song (title, duration) VALUES ('Confía en Mí (Versión en Inglés)', 205);
+INSERT INTO public.song (title, duration) VALUES ('Esto No Puede Terminar', 198);
+INSERT INTO public.song (title, duration) VALUES ('Tienes el Talento', 205);
+INSERT INTO public.song (title, duration) VALUES ('Yo Soy Así', 208);
+INSERT INTO public.song (title, duration) VALUES ('Are You Ready For the Ride?', 200);
+INSERT INTO public.song (title, duration) VALUES ('Hoy Somos Más (Versión en Inglés)', 212);
+INSERT INTO public.song (title, duration) VALUES ('Siempre Brillarás (Versión en Inglés)', 213);
+INSERT INTO public.song (title, duration) VALUES ('Euforia (Versión en Inglés)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Hoy Decidí Olvidarte', 201);
+INSERT INTO public.song (title, duration) VALUES ('Siempre Juntos (Versión en Inglés)', 197);
+INSERT INTO public.song (title, duration) VALUES ('I Want You', 212);
+INSERT INTO public.song (title, duration) VALUES ('Losing the Love (Versión en Inglés)', 219);
+INSERT INTO public.song (title, duration) VALUES ('Till the End (Versión en Inglés)', 193);
+INSERT INTO public.song (title, duration) VALUES ('Yo Soy Como Tú', 200);
+INSERT INTO public.song (title, duration) VALUES ('Ser Mejor (Versión Rock)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Confía en Mí (Versión Rock)', 205);
+INSERT INTO public.song (title, duration) VALUES ('Ella Dice (Versión Rock)', 213);
+INSERT INTO public.song (title, duration) VALUES ('Hoy Somos Más (Versión Rock)', 212);
+INSERT INTO public.song (title, duration) VALUES ('Voy Por Ti (Versión Rock)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Violetta y León (Versión Rock)', 199);
+INSERT INTO public.song (title, duration) VALUES ('Ser Mejor (Versión Orquesta)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Juntos Somos Más (Versión Orquesta)', 194);
+INSERT INTO public.song (title, duration) VALUES ('Podemos (Versión Orquesta)', 207);
+INSERT INTO public.song (title, duration) VALUES ('Habla Si Puedes (Versión Orquesta)', 210);
+INSERT INTO public.song (title, duration) VALUES ('En Gira', 202);
+INSERT INTO public.song (title, duration) VALUES ('Encender Nuestra Luz', 208);
+INSERT INTO public.song (title, duration) VALUES ('Yo Te Amo a Ti', 213);
+INSERT INTO public.song (title, duration) VALUES ('Código Amistad', 212);
+INSERT INTO public.song (title, duration) VALUES ('Luz, Cámara, Acción (Versión en Inglés)', 219);
+INSERT INTO public.song (title, duration) VALUES ('On Beat', 209);
+INSERT INTO public.song (title, duration) VALUES ('Soy Mi Mejor Momento (Versión en Inglés)', 215);
+INSERT INTO public.song (title, duration) VALUES ('Soy Mi Mejor Momento (Versión Rock)', 215);
+INSERT INTO public.song (title, duration) VALUES ('Te Quiero', 203);
+INSERT INTO public.song (title, duration) VALUES ('Catch Me If You Can', 204);
+INSERT INTO public.song (title, duration) VALUES ('Esto No Puede Terminar (Versión en Inglés)', 198);
+INSERT INTO public.song (title, duration) VALUES ('Are You Ready For the Ride? (Versión en Español)', 200);
+INSERT INTO public.song (title, duration) VALUES ('In My Own World (Versión en Inglés)', 189);
+INSERT INTO public.song (title, duration) VALUES ('Entre Tu y Yo (Versión en Inglés)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Cuando Me Voy (Versión en Inglés)', 215);
+INSERT INTO public.song (title, duration) VALUES ('Ven Con Nosotros (Versión en Inglés)', 209);
+INSERT INTO public.song (title, duration) VALUES ('Underneath It All (Versión en Español)', 200);
+INSERT INTO public.song (title, duration) VALUES ('This Is My Paradise (Versión en Español)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Supercreativa (Versión en Inglés)', 195);
+INSERT INTO public.song (title, duration) VALUES ('Luz, Cámara, Acción (Versión Orquesta)', 219);
+INSERT INTO public.song (title, duration) VALUES ('Encender Nuestra Luz (Versión Orquesta)', 208);
+INSERT INTO public.song (title, duration) VALUES ('Junto a Ti (Versión Orquesta)', 201);
+INSERT INTO public.song (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO public.song (title, duration) VALUES ('Ser Mejor (Versión Acústica)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Podemos (Versión Acústica)', 207);
+INSERT INTO public.song (title, duration) VALUES ('Algo Suena en Mi (Versión Acústica)', 192);
+INSERT INTO public.song (title, duration) VALUES ('Juntos Somos Más (Versión Acústica)', 194);
+INSERT INTO public.song (title, duration) VALUES ('Voy Por Ti (Versión Acústica)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Violetta y León (Versión Acústica)', 199);
+INSERT INTO public.song (title, duration) VALUES ('En Gira (Versión Acústica)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Aprendí a Decir Adiós (Versión Acústica)', 197);
+INSERT INTO public.song (title, duration) VALUES ('Ven y Canta (Versión Acústica)', 206);
+INSERT INTO public.song (title, duration) VALUES ('Ella Es Tu Canción', 202);
+INSERT INTO public.song (title, duration) VALUES ('Ser Quien Soy', 206);
+INSERT INTO public.song (title, duration) VALUES ('Un Destino', 212);
+INSERT INTO public.song (title, duration) VALUES ('Soy Mi Mejor Momento (Versión Acústica)', 215);
+INSERT INTO public.song (title, duration) VALUES ('Nel Mio Mondo', 191);
+INSERT INTO public.song (title, duration) VALUES ('Junto a Ti (Versión Acústica)', 201);
+INSERT INTO public.song (title, duration) VALUES ('Entre Dos Mundos', 194);
+INSERT INTO public.song (title, duration) VALUES ('Ven y Canta (Versión en Inglés)', 206);
+INSERT INTO public.song (title, duration) VALUES ('Euforia (Versión en Inglés)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Luz, Cámara, Acción (Versión en Inglés)', 219);
+INSERT INTO public.song (title, duration) VALUES ('In My Own World (Versión en Inglés)', 189);
+INSERT INTO public.song (title, duration) VALUES ('Cuando Me Voy (Versión en Inglés)', 215);
+INSERT INTO public.song (title, duration) VALUES ('Te Creo (Versión en Inglés)', 217);
+INSERT INTO public.song (title, duration) VALUES ('Hoy Somos Más (Versión en Inglés)', 212);
+INSERT INTO public.song (title, duration) VALUES ('Underneath It All (Versión en Español)', 200);
+INSERT INTO public.song (title, duration) VALUES ('Supercreativa (Versión en Inglés)', 195);
+INSERT INTO public.song (title, duration) VALUES ('Algo Suena en Mi (Versión en Español)', 192);
+INSERT INTO public.song (title, duration) VALUES ('A Rodar Mi Vida (Versión en Inglés)', 200);
+INSERT INTO public.song (title, duration) VALUES ('Losing the Love (Versión en Inglés)', 219);
+INSERT INTO public.song (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO public.song (title, duration) VALUES ('Tienes Todo (Versión en Inglés)', 217);
+INSERT INTO public.song (title, duration) VALUES ('Yo Soy Así (Versión en Inglés)', 208);
+INSERT INTO public.song (title, duration) VALUES ('Till the End (Versión en Inglés)', 193);
+INSERT INTO public.song (title, duration) VALUES ('Are You Ready For the Ride? (Versión en Español)', 200);
+INSERT INTO public.song (title, duration) VALUES ('Si Es Por Amor (Versión en Inglés)', 214);
+INSERT INTO public.song (title, duration) VALUES ('Si Es Por Amor (Versión en Inglés)', 214);
+INSERT INTO public.song (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO public.song (title, duration) VALUES ('Algo Suena en Mi (Versión en Español)', 192);
+INSERT INTO public.song (title, duration) VALUES ('Euforia (Versión en Inglés)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Entre Tu y Yo (Versión en Inglés)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Cuando Me Voy (Versión en Inglés)', 215);
+INSERT INTO public.song (title, duration) VALUES ('Ven Con Nosotros (Versión en Inglés)', 209);
+INSERT INTO public.song (title, duration) VALUES ('Underneath It All (Versión en Español)', 200);
+INSERT INTO public.song (title, duration) VALUES ('This Is My Paradise (Versión en Español)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Supercreativa (Versión en Inglés)', 195);
+INSERT INTO public.song (title, duration) VALUES ('Luz, Cámara, Acción (Versión Orquesta)', 219);
+INSERT INTO public.song (title, duration) VALUES ('Encender Nuestra Luz (Versión Orquesta)', 208);
+INSERT INTO public.song (title, duration) VALUES ('Junto a Ti (Versión Orquesta)', 201);
+INSERT INTO public.song (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO public.song (title, duration) VALUES ('Ser Mejor (Versión Acústica)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Podemos (Versión Acústica)', 207);
+INSERT INTO public.song (title, duration) VALUES ('Algo Suena en Mi (Versión Acústica)', 192);
+INSERT INTO public.song (title, duration) VALUES ('Juntos Somos Más (Versión Acústica)', 194);
+INSERT INTO public.song (title, duration) VALUES ('Voy Por Ti (Versión Acústica)', 203);
+INSERT INTO public.song (title, duration) VALUES ('Violetta y León (Versión Acústica)', 199);
+INSERT INTO public.song (title, duration) VALUES ('En Gira (Versión Acústica)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Aprendí a Decir Adiós (Versión Acústica)', 197);
+INSERT INTO public.song (title, duration) VALUES ('Ven y Canta (Versión Acústica)', 206);
+INSERT INTO public.song (title, duration) VALUES ('Ella Es Tu Canción', 202);
+INSERT INTO public.song (title, duration) VALUES ('Ser Quien Soy', 206);
+INSERT INTO public.song (title, duration) VALUES ('Un Destino', 212);
+INSERT INTO public.song (title, duration) VALUES ('Soy Mi Mejor Momento (Versión Acústica)', 215);
+INSERT INTO public.song (title, duration) VALUES ('Nel Mio Mondo', 191);
+INSERT INTO public.song (title, duration) VALUES ('Junto a Ti (Versión Acústica)', 201);
+INSERT INTO public.song (title, duration) VALUES ('Entre Dos Mundos', 194);
+INSERT INTO public.song (title, duration) VALUES ('Ven y Canta (Versión en Inglés)', 206);
+INSERT INTO public.song (title, duration) VALUES ('Euforia (Versión en Inglés)', 202);
+INSERT INTO public.song (title, duration) VALUES ('Luz, Cámara, Acción (Versión en Inglés)', 219);
+INSERT INTO public.song (title, duration) VALUES ('In My Own World (Versión en Inglés)', 189);
+INSERT INTO public.song (title, duration) VALUES ('Cuando Me Voy (Versión en Inglés)', 215);
+INSERT INTO public.song (title, duration) VALUES ('Te Creo (Versión en Inglés)', 217);
+INSERT INTO public.song (title, duration) VALUES ('Hoy Somos Más (Versión en Inglés)', 212);
+INSERT INTO public.song (title, duration) VALUES ('Underneath It All (Versión en Español)', 200);
+INSERT INTO public.song (title, duration) VALUES ('Supercreativa (Versión en Inglés)', 195);
+INSERT INTO public.song (title, duration) VALUES ('Algo Suena en Mi (Versión en Español)', 192);
+INSERT INTO public.song (title, duration) VALUES ('A Rodar Mi Vida (Versión en Inglés)', 200);
+INSERT INTO public.song (title, duration) VALUES ('Losing the Love (Versión en Inglés)', 219);
+INSERT INTO public.song (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO public.song (title, duration) VALUES ('Tienes Todo (Versión en Inglés)', 217);
+INSERT INTO public.song (title, duration) VALUES ('Yo Soy Así (Versión en Inglés)', 208);
+INSERT INTO public.song (title, duration) VALUES ('Till the End (Versión en Inglés)', 193);
+INSERT INTO public.song (title, duration) VALUES ('Are You Ready For the Ride? (Versión en Español)', 200);
+INSERT INTO public.song (title, duration) VALUES ('Si Es Por Amor (Versión en Inglés)', 214);
