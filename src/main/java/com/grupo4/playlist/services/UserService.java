@@ -11,11 +11,11 @@ import com.grupo4.playlist.models.entities.User;
 
 public interface UserService {
 	
-	void login(LoginDTO login) throws Exception;
-	void save(SaveUserDTO info) throws Exception;
+	void login(LoginDTO info) throws Exception;
+	void saveUser(SaveUserDTO info) throws Exception;
 	void deleteByCode(UUID code) throws Exception;
 	void deleteByUsername(String user) throws Exception;
 	void changePassword(String user, ChangePasswordDTO info) throws Exception;
-	List<UserInfoDTO> findAll();
+	List<User> findAll();
 	User findOneByUsername(String username);
 }

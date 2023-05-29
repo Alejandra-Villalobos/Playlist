@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
 	@Id
 	@Column(name = "code")
@@ -40,8 +40,5 @@ public class User {
 		this.password = password;
 		this.email = email;
 	}
-	
-	
-	
 
 }

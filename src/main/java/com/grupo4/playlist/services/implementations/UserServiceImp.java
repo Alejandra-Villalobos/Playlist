@@ -25,14 +25,10 @@ public class UserServiceImp implements UserService {
 	private UserRepository userRepository;
 
 	@Override
-	public void login(LoginDTO login) throws Exception {
-		User user = userRepository.findOneByUsername(login.getUsername());
+	public void login(LoginDTO info) throws Exception {
+		User user = userRepository.findOneByUsername(info.getUsername());
 		
-		if(user == null) {
-			throw new Exception("User not found");
-		}
-		
-		if(!user.getPassword().equals(login.getPassword())) {
+		if(!user.getPassword().equals(info.getPassword())) {
 			throw new Exception("Invalid credentials");
 		}
 		
@@ -42,7 +38,7 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	@Transactional(rollbackOn = Exception.class)
-	public void save(SaveUserDTO info) throws Exception {
+	public void saveUser(SaveUserDTO info) throws Exception {
 		try {
 			User newUser = new User(info.getUsername(), info.getPassword(), info.getEmail());
 			userRepository.save(newUser);
@@ -83,8 +79,8 @@ public class UserServiceImp implements UserService {
 	}
 
 	@Override
-	public List<UserInfoDTO> findAll() {
-		return userRepository.findAllUser();
+	public List<User> findAll() {
+		return userRepository.findAll();
 	}
 
 	@Override
