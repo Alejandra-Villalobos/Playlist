@@ -4,12 +4,13 @@ import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
+@NoArgsConstructor
 public class ChangePasswordDTO {
 	@NotEmpty(message = "Current user can't be empty")
-	private String user;
+	private String username;
 	
 	@NotEmpty(message = "Current password can't be empty")
     private String currentPassword;

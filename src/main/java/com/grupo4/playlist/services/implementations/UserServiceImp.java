@@ -32,8 +32,6 @@ public class UserServiceImp implements UserService {
 			throw new Exception("Invalid credentials");
 		}
 		
-		throw new ResponseStatusException(HttpStatus.OK,"Login OK!");
-		
 	}
 
 	@Override
@@ -45,9 +43,6 @@ public class UserServiceImp implements UserService {
 		}catch(Exception e){
 			throw new Exception("Error save user");
 		}
-		
-		throw new ResponseStatusException(HttpStatus.OK,"user created!");
-		
 	}
 
 	@Override
@@ -59,22 +54,20 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	@Transactional(rollbackOn = Exception.class)
-	public void deleteByUsername(String user) throws Exception {
-		userRepository.deleteByUsername(user);
+	public void deleteByUsername(String username) throws Exception {
+	    userRepository.deleteByUsername(username);
 	}
 
 	@Override
 	@Transactional(rollbackOn = Exception.class)
-	public void changePassword(String username, ChangePasswordDTO info) throws Exception {
-		User user = userRepository.findOneByUsername(username);
+	public void changePassword(ChangePasswordDTO info) throws Exception {
+		User user = userRepository.findOneByUsername(info.getUsername());
 
         if (user == null || !user.getPassword().equals(info.getCurrentPassword())) {
-            throw new InvalidParameterException("Invalid current password");
+            throw new Exception("400");
         }
         user.setPassword(info.getNewPassword());
         userRepository.save(user);
-        
-        throw new ResponseStatusException(HttpStatus.OK,"password change succesfull!");
 		
 	}
 

@@ -47,8 +47,12 @@ public class UserController {
 			userService.login(info);
 			return new ResponseEntity<>(new MessageDTO("login OK!"), HttpStatus.OK);
 		}catch(Exception e){
-			e.printStackTrace();
-			return new ResponseEntity<>(new MessageDTO("Internal Server Error"+info.getUsername()+info.getPassword()), HttpStatus.INTERNAL_SERVER_ERROR);
+			if (e.getMessage().equals("Invalid credentials")) {
+	            return new ResponseEntity<>(new MessageDTO(e.getMessage()), HttpStatus.UNAUTHORIZED);
+	        } else {
+	            e.printStackTrace();
+	            return new ResponseEntity<>(new MessageDTO("Internal Server Error"), HttpStatus.INTERNAL_SERVER_ERROR);
+	        }
 		}
 		
 	}
@@ -63,25 +67,33 @@ public class UserController {
 		
 		try {
 			userService.saveUser(info);
-			return new ResponseEntity<>(info, HttpStatus.OK);
+			return new ResponseEntity<>(new MessageDTO("user created!"), HttpStatus.OK);
 		}catch(Exception e){
 			e.printStackTrace();
-			return new ResponseEntity<>(new MessageDTO("Internal Server Error"+info.getUsername()+info.getPassword()), HttpStatus.INTERNAL_SERVER_ERROR);
+			return new ResponseEntity<>(new MessageDTO("Internal Server Error"), HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
 	
 	@DeleteMapping("/{username}")
 	public ResponseEntity<?> deleteByUsername(@PathVariable(name = "username") String username){
 		if(userService.findOneByUsername(username) == null){
-			return new ResponseEntity<>(new MessageDTO("Song not found"), HttpStatus.NOT_FOUND);
+			return new ResponseEntity<>(new MessageDTO("User not found"), HttpStatus.NOT_FOUND);
 		}
 		
-		return new ResponseEntity<>(new MessageDTO("User delete"), HttpStatus.OK);
+		try {
+			userService.deleteByUsername(username);
+			return new ResponseEntity<>(new MessageDTO("User delete!"), HttpStatus.OK);
+		}catch (Exception e){
+			e.printStackTrace();
+			return new ResponseEntity<>(new MessageDTO("Internal Server Error"), HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+		
+		
 	}
 	
 	@PutMapping("/changepassword")
-	public ResponseEntity<?> changePassword(@RequestBody @Valid String user, ChangePasswordDTO info, BindingResult validations){
-		if(userService.findOneByUsername(user) == null){
+	public ResponseEntity<?> changePassword(@RequestBody @Valid ChangePasswordDTO info, BindingResult validations){
+		if(userService.findOneByUsername(info.getUsername()) == null){
 			return new ResponseEntity<>(
 					new MessageDTO("Username not found"), HttpStatus.NOT_FOUND);
 		}
@@ -92,12 +104,18 @@ public class UserController {
 		}
 		
 		try {
-			userService.changePassword(user, info);
+			userService.changePassword(info);
 			return new ResponseEntity<>(new MessageDTO("password update!"), HttpStatus.OK);
 			
 		}catch(Exception e){
-			e.printStackTrace();
-			return new ResponseEntity<>(new MessageDTO("Internal Server Error"), HttpStatus.INTERNAL_SERVER_ERROR);
+			if(e.getMessage().equals("400")){
+				return new ResponseEntity<>(new MessageDTO("Wrong password"), HttpStatus.BAD_REQUEST);
+			}
+			else {
+				e.printStackTrace();
+				return new ResponseEntity<>(new MessageDTO("Internal Server Error"), HttpStatus.INTERNAL_SERVER_ERROR);
+			}
+			
 		}
 	}
 	
@@ -113,8 +131,9 @@ public class UserController {
 	
 	@GetMapping("/get/{username}")
 	public ResponseEntity<?> findOneByUsername(String username){
+		User user = userService.findOneByUsername(username);
 		return new ResponseEntity<>(
-				"hola",
+				user,
 				HttpStatus.OK
 			);
 	}

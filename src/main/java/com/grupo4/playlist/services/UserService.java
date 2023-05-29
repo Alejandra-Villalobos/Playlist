@@ -15,7 +15,7 @@ public interface UserService {
 	void saveUser(SaveUserDTO info) throws Exception;
 	void deleteByCode(UUID code) throws Exception;
 	void deleteByUsername(String user) throws Exception;
-	void changePassword(String user, ChangePasswordDTO info) throws Exception;
+	void changePassword(ChangePasswordDTO info) throws Exception;
 	List<User> findAll();
 	User findOneByUsername(String username);
 }
