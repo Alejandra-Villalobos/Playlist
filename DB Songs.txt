@@ -1,0 +1,717 @@
+[7:14 p. m., 24/5/2023] Karen 🧑‍💻💙: INSERT INTO nombre_cancion (title, duration) VALUES ('No Me Conoce', 193);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella Quiere Beber', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Wacha', 180);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Picky', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mentirosa', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella Sabe', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Enamoré', 211);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Gusta', 187);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Que Pretendes', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Pa'' Mi', 187);
+INSERT INTO nombre_cancion (title, duration…
+[7:23 p. m., 24/5/2023] Karen 🧑‍💻💙: INSERT INTO nombre_cancion (title, duration) VALUES ('Te Quiero Más', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Tú Te Vas', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Princesa', 220);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Consejo de Amor', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ya No Hay Nadie Que Nos Pare', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Fresa', 177);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Respirar', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella Dice', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quiero Volver', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Por Que Te Vas', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Suéltate El Pelo', 191);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Amo a Ti', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Got Me Started', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Great Escape', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Yo Me Escaparé', 187);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Siempre Brillarás', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Losing the Love', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Born to Shine', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('All You Gotta Do', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Finders Keepers', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Light Your Heart', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Siempre Juntos', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Got Me Started (Remix)', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sad Song', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Amaré', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Till the End', 193);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Sigo a Ti', 220);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Love Is Love', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Waves', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Diciembre', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Una Vez Más', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Soy Mi Mejor Momento', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vuelve a Mí', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cristina', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Confía en Mí', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Violetta y León', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ser Mejor', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ven y Canta', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Juntos Somos Más', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Euforia', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Habla Si Puedes', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En Mi Mundo', 191);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Libre Soy', 193);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Creo', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Podemos', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hoy Somos Más', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Nuestro Camino', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Luz, Cámara, Acción', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Junto a Ti', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('In My Own World', 189);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Entre Tu y Yo', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Me Voy', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ven Con Nosotros', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Es Por Amor', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Voy Por Ti', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Aprendí a Decir Adiós', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Lo Que Tu Alma Escribe', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ser Mejor (Versión en Inglés)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Juntos Somos Más (Versión en Inglés)', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Underneath It All', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('This Is My Paradise', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tienes Todo', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Algo Suena en Mi', 192);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Rodar Mi Vida', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mírame a Mí', 191);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Tú No Estás', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Siento', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Todavía Hay Más', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Supercreativa', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Voy Por Ti (Versión en Inglés)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Habla Si Puedes (Versión en Inglés)', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ricomincio Da Qui', 218);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Es Por Amor (Versión en Inglés)', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Great Escape (Versión en Español)', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Confía en Mí (Versión en Inglés)', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Esto No Puede Terminar', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tienes el Talento', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Yo Soy Así', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Are You Ready For the Ride?', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hoy Somos Más (Versión en Inglés)', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Siempre Brillarás (Versión en Inglés)', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Euforia (Versión en Inglés)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hoy Decidí Olvidarte', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Siempre Juntos (Versión en Inglés)', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('I Want You', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Losing the Love (Versión en Inglés)', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Till the End (Versión en Inglés)', 193);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Yo Soy Como Tú', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ser Mejor (Versión Rock)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Confía en Mí (Versión Rock)', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella Dice (Versión Rock)', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hoy Somos Más (Versión Rock)', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Voy Por Ti (Versión Rock)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Violetta y León (Versión Rock)', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ser Mejor (Versión Orquesta)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Juntos Somos Más (Versión Orquesta)', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Podemos (Versión Orquesta)', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Habla Si Puedes (Versión Orquesta)', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En Gira', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Encender Nuestra Luz', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Yo Te Amo a Ti', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Código Amistad', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Luz, Cámara, Acción (Versión en Inglés)', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('On Beat', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Soy Mi Mejor Momento (Versión en Inglés)', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Soy Mi Mejor Momento (Versión Rock)', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Quiero', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Catch Me If You Can', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Esto No Puede Terminar (Versión en Inglés)', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Are You Ready For the Ride? (Versión en Español)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('In My Own World (Versión en Inglés)', 189);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Entre Tu y Yo (Versión en Inglés)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Me Voy (Versión en Inglés)', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ven Con Nosotros (Versión en Inglés)', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Underneath It All (Versión en Español)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('This Is My Paradise (Versión en Español)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Supercreativa (Versión en Inglés)', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Luz, Cámara, Acción (Versión Orquesta)', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Encender Nuestra Luz (Versión Orquesta)', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Junto a Ti (Versión Orquesta)', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ser Mejor (Versión Acústica)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Podemos (Versión Acústica)', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Algo Suena en Mi (Versión Acústica)', 192);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Juntos Somos Más (Versión Acústica)', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Voy Por Ti (Versión Acústica)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Violetta y León (Versión Acústica)', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En Gira (Versión Acústica)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Aprendí a Decir Adiós (Versión Acústica)', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ven y Canta (Versión Acústica)', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella Es Tu Canción', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ser Quien Soy', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Un Destino', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Soy Mi Mejor Momento (Versión Acústica)', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Nel Mio Mondo', 191);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Junto a Ti (Versión Acústica)', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Entre Dos Mundos', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ven y Canta (Versión en Inglés)', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Euforia (Versión en Inglés)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Luz, Cámara, Acción (Versión en Inglés)', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('In My Own World (Versión en Inglés)', 189);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Me Voy (Versión en Inglés)', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Creo (Versión en Inglés)', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hoy Somos Más (Versión en Inglés)', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Underneath It All (Versión en Español)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Supercreativa (Versión en Inglés)', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Algo Suena en Mi (Versión en Español)', 192);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Rodar Mi Vida (Versión en Inglés)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Losing the Love (Versión en Inglés)', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tienes Todo (Versión en Inglés)', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Yo Soy Así (Versión en Inglés)', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Till the End (Versión en Inglés)', 193);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Are You Ready For the Ride? (Versión en Español)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Es Por Amor (Versión en Inglés)', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Es Por Amor (Versión en Inglés)', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Algo Suena en Mi (Versión en Español)', 192);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Euforia (Versión en Inglés)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Entre Tu y Yo (Versión en Inglés)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Me Voy (Versión en Inglés)', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ven Con Nosotros (Versión en Inglés)', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Underneath It All (Versión en Español)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('This Is My Paradise (Versión en Español)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Supercreativa (Versión en Inglés)', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Luz, Cámara, Acción (Versión Orquesta)', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Encender Nuestra Luz (Versión Orquesta)', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Junto a Ti (Versión Orquesta)', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ser Mejor (Versión Acústica)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Podemos (Versión Acústica)', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Algo Suena en Mi (Versión Acústica)', 192);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Juntos Somos Más (Versión Acústica)', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Voy Por Ti (Versión Acústica)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Violetta y León (Versión Acústica)', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En Gira (Versión Acústica)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Aprendí a Decir Adiós (Versión Acústica)', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ven y Canta (Versión Acústica)', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella Es Tu Canción', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ser Quien Soy', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Un Destino', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Soy Mi Mejor Momento (Versión Acústica)', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Nel Mio Mondo', 191);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Junto a Ti (Versión Acústica)', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Entre Dos Mundos', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ven y Canta (Versión en Inglés)', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Euforia (Versión en Inglés)', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Luz, Cámara, Acción (Versión en Inglés)', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('In My Own World (Versión en Inglés)', 189);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Me Voy (Versión en Inglés)', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Creo (Versión en Inglés)', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hoy Somos Más (Versión en Inglés)', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Underneath It All (Versión en Español)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Supercreativa (Versión en Inglés)', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Algo Suena en Mi (Versión en Español)', 192);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Rodar Mi Vida (Versión en Inglés)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Losing the Love (Versión en Inglés)', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Catch Me If You Can (Versión en Inglés)', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tienes Todo (Versión en Inglés)', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Yo Soy Así (Versión en Inglés)', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Till the End (Versión en Inglés)', 193);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Are You Ready For the Ride? (Versión en Español)', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Es Por Amor (Versión en Inglés)', 214);
+COMMIT;
+
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cafuné', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amor de Red Social', 235);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Bésame Sin Sentir', 240);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ni Vivo Ni Muerto', 232);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Demasiado Tarde', 191);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En El Hood', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Vi', 183);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Nada Más', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Duele', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Días Grises', 239);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Solo Contigo', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Siendo Yo', 218);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Toda La Noche', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En El Carro', 189);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vuelve A Casa', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Química', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tan Fácil', 226);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hablar De Mí', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vuelve', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Confieso', 230);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En Silencio', 181);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tu Me Elevas', 191);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Contigo Me Siento Bien', 221);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Volverte a Ver', 221);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sé Que Volverás', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Lento', 222);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Como No Soñar', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Déjame Saber', 202);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Más De Lo Que Recuerdo', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amor y Odio', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Preparé', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Calle Es Pa Hombre', 223);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amor De Primavera', 229);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En Otro Lugar', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Para Siempre', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Algo En El Aire', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Olvidé', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Todo Te Di', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Baila Conmigo', 193);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quisiera', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sueños', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Lejos', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sólo Tú', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Nada Cambiará Mi Amor Por Ti', 239);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si No Te Hubieras Ido', 248);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Como Tú', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sin Ti', 222);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Dónde Vamos', 220);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sin Mirar Atrás', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sueños Rotos', 218);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hasta El Amanecer', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Noche Loca', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tal Vez', 191);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Estuvieras Conmigo', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('No Me Dejes Solo', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Llorarás', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dile', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Aventura', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Una Vez Más', 220);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Déjate Llevar', 219);
+INSERT INTO nombre_cancion (title, duration) VALUES ('No Me Pidas Perdón', 227);
+INSERT INTO nombre_cancion (title, duration) VALUES ('No Te Cambio Por Ninguna', 221);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quédate Conmigo', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hoy Lo Siento', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Amor', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Adiós', 192);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sígueme Bailando', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Cuesta Tanto Olvidarte', 226);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tú Me Llevas', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tanto y Nada', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cómo Le Hago', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Amor No Fue Suficiente', 223);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Corazón', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quédate Conmigo Esta Noche', 222);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Perdón', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ya No Hay Dolor', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Loco', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Esta Noche', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Desesperado', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hasta El Final', 218);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Siempre Contigo', 194);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vete', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Química', 218);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tanto La Quería', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Bendito', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('En Otro Mundo', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Soltera', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Estoy Muriendo', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('No Me Llames Más', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Contigo Quiero', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dime Cuantas Veces', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tu Voz', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quédate Conmigo', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Como Te Olvido', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sin Ti Me Atrevo', 211);
+INSERT INTO nombre_cancion (title, duration) VALUES ('No Te Creas Tan Importante', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Voy Por Ti', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tú Me Dejaste de Querer', 225);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Nuestro Amor', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Estaré', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Supieras', 218);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quiéreme', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dame Tu Vida', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Yo No Sé Olvidar', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Porque Te Amo', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Melodía', 201);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Linda Pero Peligrosa', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Equivoqué', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Qué Bonita La Vida', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Eres Mi Religión', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Amaré', 211);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Deja Vu', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Bebé', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quédate Conmigo Esta Noche', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Pudiera', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tu Cárcel', 217);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Perdidos', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Para Que La Vida', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Volver', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Tú Supieras', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Enamorado Por Primera Vez', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Puro Dolor', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Incondicional', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cómo Fui', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Esa Noche', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Enamora', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Aunque No Sea Conmigo', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Aléjate De Mí', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Fue Un Error Amarte', 200);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Niego', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Llueve Por Dentro', 215);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Lo Que Un Día Fue No Será', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Inalcanzable', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Antes de Partir', 207);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Así Es El Amor', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Me Enamoro', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Que No Pare la Fiesta', 204);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ese', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hoy Tengo Ganas de Ti', 218);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Vale', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Bailando', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Devuélveme El Amor', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tengo Todo Excepto A Ti', 211);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cómo Es Posible', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Como La Flor', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dime Dónde y Cuándo', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Algo Más', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Fuego Lento', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella y Él', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mi Credo', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Háblame de Ti', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tres Semanas', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si No Te Hubiera Conocido', 220);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Rey', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Perdedor', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mi Gente', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Obsesión', 211);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dile Al Amor', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Duele El Corazón', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Corazón Sin Cara', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Perdóname', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Tú No Estás', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Bilirrubina', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Volverás', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tabaco y Chanel', 209);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Rompe Corazones', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cómo Te Extraño', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Voy a Esperar', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('No Te Contaron Mal', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Vas a Extrañar', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quiero Repetir', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Seas Grande', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Volví a Nacer', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Recuerdos Tristeza y Soledad', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hermosa Ingrata', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Mejor de Todas', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Solamente Tú', 218);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Muero', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Esclavo de Tus Besos', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sin Miedo a Nada', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Gozadera', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amor Eterno', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Tú La Ves', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tres Palabras', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si No Te Hubieras Ido', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Farsante', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Amo', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Gustas Tú', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tu Foto', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Player (Bandolera)', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Dios Le Pido', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Propuesta Indecente', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Escápate Conmigo', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Sol No Regresa', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amor, Amor, Amor', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tú', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vivir Mi Vida', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Bicicleta', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Bailando Por El Mundo', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amor Prohibido', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quédate', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Te Vas', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amiga Mía', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Cigarrillo', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Mordidita', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Triste', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Danza Kuduro', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Tortura', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Adiós Amor', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vivir Sin Aire', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vivir Así Es Morir de Amor', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Robarte Un Beso', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Despacito', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Eres Mía', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('No Me Doy Por Vencido', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Bella y Sensual', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Burbujas de Amor', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quédate Lejos', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ai Se Eu Te Pego', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tu Amor', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Camisa Negra', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Listón de Tu Pelo', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amor a la Mexicana', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Señorita', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Afuera Está Lloviendo', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Anillo', 206);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Color Esperanza', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Eso y Más', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Duele', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Quiero', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Corazón Partío', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amor Del Bueno', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Rompe la Cintura', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sobredosis', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Calienta el Sol', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Cintura', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hasta el Amanecer', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Quiero a Morir', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hasta el Techo', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Perdón', 216);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Sigo Extrañándote', 198);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Como La Vez', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Corazones Invencibles', 195);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mientes Tan Bien', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tú y Yo', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Mala y la Buena', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Taxi', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Desnuda', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('No Me Ames', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Enamora', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Aire de Tu Casa', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Me Dices Que Sí', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dueles', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si No Te Hubieras Ido', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Verdadero Amor Perdona', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Se Preparó', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dime Que Me Quieres', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vivir Mi Vida', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Enamoré', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mientes', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Un Año', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Después de Ti Quién', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Andas En Mi Cabeza', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hasta Que Te Conocí', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cómo Te Atreves', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mi Persona Favorita', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Déjala Que Vuelva', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ginza', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tengo Ganas', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Niego', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Eres Mi Religión', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Danza Kuduro', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Bicicleta', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Lo Aprendí de Ti', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Olvídame y Pega la Vuelta', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Loca', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vivir Sin Aire', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ando Buscando un Cabrón', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si No Te Hubieras Ido', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Linda Eh', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Traicionera', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Qué Pena Me Das', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Asesina', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Bajo El Agua', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Corazón', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Despacito (Remix)', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cómo Mirarte', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Tanto', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amarte a la Antigua', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Quiero a Morir', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Criminal', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Banda', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Rehúso', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Rompe la Cintura', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Amante', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Síguelo Bailando', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Perdedor', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Niña Bonita', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Puro Dolor', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Flor Pálida', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Amor de Mi Vida', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cómo Has Hecho', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Me Enamoro', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dile Que Tú Me Quieres', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('A Donde Vamos a Parar', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hasta el Amanecer', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Para Enamorarte', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Loco', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Cintura', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella Y Yo', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Fuiste Tú', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Dile al Amor', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mi Gente', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Duele el Corazón', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Quédate Conmigo', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Farsante', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Tu Novio Te Deja Sola', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mala Mujer', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Darte un Beso', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Eso No Va a Suceder', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Las Cosas Pequeñas', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('El Problema', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Señora de Las Cuatro Décadas', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Súbeme la Radio', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Hasta Que Salga el Sol', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Ella Quiere Hmm...Haa...Hmm', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Mueves', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Gozadera', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mi Cama', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Bicicleta', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si Tú La Ves', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Felices los 4', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Boté (Remix)', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Cuando Nadie Ve', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Mayores', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Limón y Sal', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Me Gusta', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Reggaetón Lento (Bailemos)', 199);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Estrellitas y Duendes', 208);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Mejor de Todas', 214);
+INSERT INTO nombre_cancion (title, duration) VALUES ('La Rompe Corazones', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Vuelve', 210);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Amorfoda', 205);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Échame La Culpa', 203);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Afuera Está Lloviendo', 196);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Regalo Amores', 213);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Si No Te Quisiera', 197);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Bonita', 212);
+INSERT INTO nombre_cancion (title, duration) VALUES ('Te Vi Venir', 199);
+
+INSERT INTO Canciones (nombre_cancion, duracion_segundos) VALUES
+('Cafuné', 212),
+('Amor de Red Social', 235),
+('Bésame Sin Sentir', 240),
+('Ni Vivo Ni Muerto', 232),
+('Demasiado Tarde', 191),
+('En El Hood', 200),
+('Te Vi', 183),
+('Nada Más', 202),
+('Duele', 207),
+('Días Grises', 239),
+('Solo Contigo', 201),
+('Siendo Yo', 218),
+('Toda La Noche', 215),
+('En El Carro', 189),
+('Vuelve A Casa', 213),
+('Química', 195),
+('Tan Fácil', 226),
+('Hablar De Mí', 213),
+('Vuelve', 194),
+('Confieso', 230),
+('En Silencio', 181),
+('Tu Me Elevas', 191),
+('Contigo Me Siento Bien', 221),
+('Volverte a Ver', 221),
+('Sé Que Volverás', 208),
+('Lento', 222),
+('Como No Soñar', 200),
+('Déjame Saber', 202),
+('Más De Lo Que Recuerdo', 212),
+('Amor y Odio', 194),
+('Me Preparé', 198),
+('La Calle Es Pa Hombre', 223),
+('Amor De Primavera', 229),
+('En Otro Lugar', 217),
+('Para Siempre', 195),
+('Algo En El Aire', 210),
+('Te Olvidé', 217),
+('Todo Te Di', 206),
+('Baila Conmigo', 193),
+('Quisiera', 203),
+('Sueños', 195),
+('Lejos', 213),
+('Sólo Tú', 199),
+('Nada Cambiará Mi Amor Por Ti', 239),
+('Si No Te Hubieras Ido', 248),
+('Como Tú', 205),
+('Sin Ti', 222),
+('A Dónde Vamos', 220),
+('Sin Mirar Atrás', 213),
+('Sueños Rotos', 218),
+('Hasta El Amanecer', 210),
+('Noche Loca', 199),
+('Tal Vez', 191),
+('Si Estuvieras Conmigo', 205),
+('No Me Dejes Solo', 208),
+('Llorarás', 217),
+('Dile', 198),
+('Aventura', 214),
+('Una Vez Más', 220),
+('Déjate Llevar', 219),
+('No Me Pidas Perdón', 227),
+('No Te Cambio Por Ninguna', 221),
+('Quédate Conmigo', 215),
+('Hoy Lo Siento', 198),
+('El Amor', 203),
+('Adiós', 192),
+('Sígueme Bailando', 204),
+('Me Cuesta Tanto Olvidarte', 226),
+('Tú Me Llevas', 201),
+('Tanto y Nada', 215),
+('Cómo Le Hago', 194),
+('El Amor No Fue Suficiente', 223),
+('Corazón', 200),
+('Quédate Conmigo Esta Noche', 222),
+('Perdón', 204),
+('Ya No Hay Dolor', 203),
+('Loco', 196),
+('Esta Noche', 212),
+('Desesperado', 205),
+('Hasta El Final', 218),
+('Siempre Contigo', 194),
+('Vete', 201),
+('La Química', 218),
+('Tanto La Quería', 210),
+('Bendito', 195),
+('En Otro Mundo', 214),
+('Soltera', 198),
+('Me Estoy Muriendo', 207),
+('No Me Llames Más', 201),
+('Contigo Quiero', 214),
+('Dime Cuantas Veces', 203),
+('Tu Voz', 212),
+('Como Te Olvido', 216),
+('Sin Ti Me Atrevo', 211),
+('No Te Creas Tan Importante', 215),
+('Voy Por Ti', 198),
+('Tú Me Dejaste de Querer', 225),
+('Nuestro Amor', 209),
+('Estaré', 195),
+('Si Supieras', 218),
+('Quiéreme', 207),
+('Dame Tu Vida', 195),
+('Yo No Sé Olvidar', 213),
+('Porque Te Amo', 214),
+('La Melodía', 201),
+('Linda', 205),
+('Quiéreme Por Dentro', 202),
+('Cada Día', 219),
+('Yo No Sé', 198),
+('Luz Verde', 206),
+('Dile La Verdad', 208),
+('Eso No Va', 205),
+('Te Quiero Tanto', 215),
+('No Te Creas Tan Importante', 215),
+('Cómo No', 204),
+('Mi Primer Amor', 208),
+('Desesperado', 195),
+('No Podrás', 214),
+('Estaré', 204),
+('Te Vas', 199),
+('Dame Más', 202),
+('Se Te Olvidó', 211),
+('Esclavo de Tus Besos', 219),
+('Quítate la Ropa', 203),
+('No Eres Tú', 206),
+('Dime Tú', 208),
+('Linda', 215),
+('Tú y Yo', 201),
+('Algo Más', 195),
+('Quédate', 208),
+('Me Fui', 203),
+('Sueños Rotos', 208),
+('Bésame', 202),
+('Hoy', 214),
+('No Me Llames', 201),
+('Amor de Nadie', 206),
+('Soy Yo', 204),
+('Ya No Te Quiero', 215),
+('Eres Mía', 201),
+('Atrévete', 195),
+('Dime Que Sí', 214),
+('Dame Un Momento', 208),
+('Me Gustas', 203),
+('Te Vi', 205),
+('Si Tú No Estás', 211),
+('Dile Que Tú Me Quieres', 219),
+('Me Enamoré de Una Fan', 206),
+('Ella', 202),
+('Sólo Tú', 214);

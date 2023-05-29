@@ -130,7 +130,7 @@ public class UserController {
 	}
 	
 	@GetMapping("/get/{username}")
-	public ResponseEntity<?> findOneByUsername(String username){
+	public ResponseEntity<?> findOneByUsername(@PathVariable(name = "username") String username){
 		User user = userService.findOneByUsername(username);
 		return new ResponseEntity<>(
 				user,
