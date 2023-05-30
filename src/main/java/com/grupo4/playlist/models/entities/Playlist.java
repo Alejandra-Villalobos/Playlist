@@ -3,6 +3,8 @@ package com.grupo4.playlist.models.entities;
 import java.util.List;
 import java.util.UUID;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -36,7 +38,8 @@ public class Playlist {
 	@JoinColumn(name = "user_code", nullable = true)
 	private User user;
 
-	@OneToMany(mappedBy = "playlist")
+	@OneToMany(mappedBy = "playlist", fetch = FetchType.LAZY)
+	@JsonIgnore
 	private List<SongxPlaylist> songs;
 	
 	public Playlist(String title, String description, User user) {

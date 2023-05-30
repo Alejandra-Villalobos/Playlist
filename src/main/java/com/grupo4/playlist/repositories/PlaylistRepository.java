@@ -13,5 +13,6 @@ public interface PlaylistRepository extends ListCrudRepository<Playlist, UUID> {
 	/*void deleteByTitleAndUser(String title, String user);
 	void updateByTitleAndUser(String title, User user, SavePlaylistDTO info);*/
 	Playlist findOneByTitle(String title);
+	Playlist findOneByCode(UUID code);
 	//Playlist findOneByTitleAndUser(String title, String user);
 }

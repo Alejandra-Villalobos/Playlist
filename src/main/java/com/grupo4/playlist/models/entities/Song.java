@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -33,7 +34,7 @@ public class Song {
 	@Column(name = "duration")
 	private Integer duration;
 	
-	@OneToMany(mappedBy = "song")
+	@OneToMany(mappedBy = "song", fetch = FetchType.LAZY)
 	private List<SongxPlaylist> Playlist;
 	
 	public Song(String title, Integer duration) {

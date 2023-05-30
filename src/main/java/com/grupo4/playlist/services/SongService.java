@@ -3,6 +3,7 @@ package com.grupo4.playlist.services;
 import java.util.List;
 
 import com.grupo4.playlist.models.dtos.SaveSongDTO;
+import com.grupo4.playlist.models.entities.Playlist;
 import com.grupo4.playlist.models.entities.Song;
 
 public interface SongService {
@@ -11,6 +12,5 @@ public interface SongService {
 	void update(String title, SaveSongDTO info) throws Exception;
 	List<Song> findAll();
 	Song findOneByTitle(String title);
-	
 	
 }
